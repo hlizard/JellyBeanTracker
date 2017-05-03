@@ -11,7 +11,7 @@ namespace JellyBeanTracker.Mobile.Services
 {
     public class RemoteDataSource : IDataSource 
     {
-        static string HostBase = "http://192.168.0.120:49203/";
+        static string HostBase = "http://192.168.1.100/JellyBeanTracker.Web";
         public RemoteDataSource ()
         {
         }
